@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GES-SOFT</title>
+    
+</head>
+<body>
+    
+        <header>
+            
+        
+           <div><input class ="input" id="search" type=text placeholder="Recherche par mois/noms">
+                <button type="button1">Rechercher</button>
+            </div>  
+                    
+        </header>
+    
+        <br>
+       <h1>FORMULAIRE D'ENREGISTREMENT</h1>
+                    <br>
+        <div class="form">
+            <form >
+                
+                <label for="matr">Matricule:</label>
+                <input type="text" name="matricule" id="matr" required>
+                    <br><br>
+                <label for="dat">Date:</label>
+                <input type="date" name="date" id="dat">
+                    <br><br>
+                <label for="nm">Nom:</label>
+                <input type="text" name="nom" id="nm">
+                    <br><br>
+                <label for="libel">Libelles:</label>
+                <input type="text" name="libelles" id="libel">
+                    <br><br>
+                <label for="mtn">Montant:</label>
+                <input type="number" name="montant" id="mtn">
+                    <br><br>
+                <label for="versmt">Versement:</label>
+                <input type="number" name="versement" id="versmt">
+                    <br><br>
+                <label for="rap">Reste a payer:</label>
+                <input type="number" name="reste_a_payer" id="rap">
+                    <br><br><br>
+                <div class="bouton">
+                    <button id="bouton">Valider</button>   
+                </div>
+            </form>
+        </div>
+        <br><br>
+       
+           
+          
+        <table class="tble">
+            <thead class="rh">
+                <tr>
+                    <th colspan="7" class="titre">
+                        <p style="color: white;">TABLEAU DES ENTREES</p>
+                    </th>
+                </tr>
+                <tr>
+                <td>Matricule</td>
+                <td>Date</td>
+                <td>Nom</td>
+                <td >Libelles</td>
+                <td>Montant</td>
+                <td>Versement</td>
+                <td>Reste à payer</td>
+                </tr>
+            </thead>
+                 
+            <tbody>
+
+            </tbody>
+           
+        </table>
+
+    
+ <script src="script.js" defer></script>
+
+</body>
+</html>

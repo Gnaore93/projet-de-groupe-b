@@ -1,0 +1,111 @@
+ 
+ 
+ 
+ 
+ h1{
+ color: black;
+ text-align: center; 
+    
+}
+
+h2{
+    text-align: center;
+    margin-top: 3%;
+}
+
+header{
+border: 1px solid black;
+text-align: center;
+margin: auto;
+height: 50px;
+background-color: lavender;
+position: sticky;
+top: 0;
+}
+
+#search {
+  border: 1px solid blueviolet;
+  padding: 5px;
+  border-radius: 30px;
+  margin-top: 10px;
+  position: relative;
+  
+  width: 35%;
+ 
+  }
+
+
+ 
+
+    
+form{
+  
+  border: 1px solid black;
+  width: 450px;
+  text-align: center;
+  margin: auto; 
+  padding-top: 8px; 
+  background-color: lavender;
+      
+}
+label,input{
+  width: 160px;
+  display: inline-block;
+}
+.bouton{
+position: relative;
+bottom: 10px;
+}
+
+
+td{
+  border: 1px solid rgb(47, 47, 58); 
+  height: 10px;
+  width: 300px;
+  text-align: center;
+ 
+  
+}
+th{
+  border:1px solid black ;
+  width: 500px;
+   
+}
+
+  
+.tble {
+  border: 1px solid black; 
+  right: 300px;
+  border-collapse: collapse;
+  margin: auto;
+
+}
+.titre{
+  border: 2px solid black;
+ position: sticky;
+  height: 50px;
+  background-color: #4650A6;
+
+}
+
+
+
+
+.rh{
+  color: #94424e;
+  background-color: #e4dada;
+  height: 40px;
+  font-size: 25px
+     
+}
+
+
+
+
+
+
+ 
+
+
+
+ 
